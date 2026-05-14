@@ -1,0 +1,17 @@
+{
+  "name": "11-reactworldwisecitiesserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch data/cities.json --port 3001 --delay 500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
